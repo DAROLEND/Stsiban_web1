@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МеблеТех | Облік обладнання</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <span class="logo-icon">&#9632;</span>
+                <span class="logo-text">МеблеТех</span>
+            </div>
+            <nav class="nav">
+                <a href="#" class="active">Головна</a>
+                <a href="#">Обладнання</a>
+                <a href="#">Звіти</a>
+                <a href="#">Відділи</a>
+                <a href="#">Контакти</a>
+            </nav>
+            <div class="header-login">
+                <a href="#" class="btn-login">Увійти до системи</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="hero-label">Меблева фабрика · Система обліку</p>
+                <h1>Контроль над кожною<br><span>одиницею обладнання</span></h1>
+                <p class="hero-desc">Реєструйте, відстежуйте та обслуговуйте виробниче обладнання в єдиній зручній системі.</p>
+                <div class="hero-buttons">
+                    <button class="btn-main">Додати обладнання</button>
+                    <button class="btn-ghost">Переглянути реєстр &rarr;</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>128</strong>
+                        <span>Одиниць в обліку</span>
+                    </div>
+                    <div class="stat">
+                        <strong>4</strong>
+                        <span>Виробничих цехи</span>
+                    </div>
+                    <div class="stat">
+                        <strong>12</strong>
+                        <span>Потребують ТО</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-card">
+                    <div class="dc-header">
+                        <span class="dc-dot green"></span>
+                        <span class="dc-dot yellow"></span>
+                        <span class="dc-dot red"></span>
+                        <span class="dc-title">Реєстр обладнання</span>
+                    </div>
+                    <div class="dc-row">
+                        <span class="dc-badge green">Справний</span>
+                        <span>Верстат FRK-220</span>
+                    </div>
+                    <div class="dc-row">
+                        <span class="dc-badge yellow">ТО</span>
+                        <span>Пилка СП-400</span>
+                    </div>
+                    <div class="dc-row">
+                        <span class="dc-badge green">Справний</span>
+                        <span>Прес ГП-150</span>
+                    </div>
+                    <div class="dc-row">
+                        <span class="dc-badge red">Ремонт</span>
+                        <span>Шліфмашина ШМ-80</span>
+                    </div>
+                    <div class="dc-row">
+                        <span class="dc-badge green">Справний</span>
+                        <span>Фрезер ФЦ-500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="equipment">
+        <div class="container">
+            <div class="section-head">
+                <h2>Обладнання на обліку</h2>
+                <p>Актуальний стан виробничих одиниць</p>
+            </div>
+            <div class="equipment-grid">
+
+                <article class="eq-card">
+                    <div class="badge-new">Новий!</div>
+                    <div class="eq-number">001</div>
+                    <div class="eq-icon">&#9881;</div>
+                    <h3>Форматно-розкрійний верстат</h3>
+                    <ul class="eq-info">
+                        <li><span>Інв. №</span> FRK-001-2024</li>
+                        <li><span>Цех</span> Розкрій</li>
+                        <li><span>Рік введення</span> 2024</li>
+                    </ul>
+                    <div class="eq-status green">Справний</div>
+                    <button class="btn-card">Детальніше</button>
+                </article>
+
+                <article class="eq-card">
+                    <div class="eq-number">002</div>
+                    <div class="eq-icon">&#9998;</div>
+                    <h3>Стрічкова пилка</h3>
+                    <ul class="eq-info">
+                        <li><span>Інв. №</span> СП-002-2024</li>
+                        <li><span>Цех</span> Теслярний</li>
+                        <li><span>Рік введення</span> 2024</li>
+                    </ul>
+                    <div class="eq-status yellow">Потребує ТО</div>
+                    <button class="btn-card">Детальніше</button>
+                </article>
+
+                <article class="eq-card">
+                    <div class="eq-number">003</div>
+                    <div class="eq-icon">&#9670;</div>
+                    <h3>Шліфувальна машина</h3>
+                    <ul class="eq-info">
+                        <li><span>Інв. №</span> ШМ-003-2023</li>
+                        <li><span>Цех</span> Оздоблення</li>
+                        <li><span>Рік введення</span> 2023</li>
+                    </ul>
+                    <div class="eq-status green">Справний</div>
+                    <button class="btn-card">Детальніше</button>
+                </article>
+
+                <article class="eq-card">
+                    <div class="badge-repair">Ремонт!</div>
+                    <div class="eq-number">004</div>
+                    <div class="eq-icon">&#9650;</div>
+                    <h3>Гідравлічний прес</h3>
+                    <ul class="eq-info">
+                        <li><span>Інв. №</span> ГП-004-2023</li>
+                        <li><span>Цех</span> Пресування</li>
+                        <li><span>Рік введення</span> 2023</li>
+                    </ul>
+                    <div class="eq-status red">На ремонті</div>
+                    <button class="btn-card">Детальніше</button>
+                </article>
+
+            </div>
+            <div class="slider-controls">
+                <div class="slider-arrow prev-arrow">&#9664;</div>
+                <div class="slider-arrow next-arrow">&#9654;</div>
+                <div class="clear-floats"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <div class="section-head light">
+                <h2>Можливості системи</h2>
+                <p>Все необхідне для обліку виробничого обладнання</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">&#128196;</div>
+                    <h4>Централізований реєстр</h4>
+                    <p>Вся техніка фабрики в одному місці з повною історією</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">&#128202;</div>
+                    <h4>Автоматичні звіти</h4>
+                    <p>Генерація звітів по цехах, стану та термінах обслуговування</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">&#128295;</div>
+                    <h4>Контроль ТО</h4>
+                    <p>Нагадування про планове технічне обслуговування</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">&#128269;</div>
+                    <h4>Швидкий пошук</h4>
+                    <p>Миттєвий пошук будь-якої одиниці за номером або цехом</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon">&#9632;</span>
+                <span class="logo-text">МеблеТех</span>
+                <p>Інформаційна система обліку обладнання меблевої фабрики</p>
+            </div>
+            <div class="footer-hours">
+                <h4>Години роботи</h4>
+                <p>Пн–Пт: 8:00 – 17:00</p>
+                <p>Сб–Нд: вихідний</p>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 МеблеТех</p>
+                <p>Усі права захищені</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="btn-scroll-top">&#8679;</a>
+
+</body>
+</html>
